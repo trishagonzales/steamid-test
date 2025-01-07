@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--bg-canvas);
+}
+
+body {
+	min-height: 100vh;
+	min-height: 100dvh;
+
+	font-family: theme(fontFamily.body), system-ui, sans-serif;
+	font-size: theme(fontSize.1);
+	line-height: 1.5;
+
+	color: theme(colors.gray.600);
+	background-color: theme(colors.green.50);
+
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+}
+
+button,
+select,
+input,
+textarea {
+	font: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
