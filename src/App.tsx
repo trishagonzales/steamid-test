@@ -6,7 +6,7 @@ export default function App() {
 	const auth = useAuth();
 
 	return (
-		<main className='flex items-center justify-center min-h-screen p-4'>
+		<main className='min-h-screen px-4 py-5'>
 			{auth.isLoggedIn ? <WelcomePage /> : <LoginPage />}
 		</main>
 	);

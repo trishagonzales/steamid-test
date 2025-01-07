@@ -5,6 +5,7 @@ export default {
 	theme: {
 		fontFamily: {
 			body: 'Inter Variable',
+			heading: 'Poppins',
 		},
 
 		fontSize: {
